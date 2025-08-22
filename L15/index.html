@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seceltors in CSS</title>
+
+    <style>
+        /* Element selector */
+        div {
+            /* background-color: aqua; */
+        }
+
+        /* class selector */
+        .red {
+            background-color: red;
+        }
+
+        /* ID selector */
+        #greenId {
+            background-color: green;
+        }
+
+        /* Child selector */
+        div > p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* descendant selector */
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* universel selector */
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+
+        /* psuedo selector */
+        a:visited {
+            color: aqua;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: cyan;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="red ">
+        <article>
+            I am a div
+            <p>i'm a para inside div</p>
+        </article>
+    </div>
+
+    <div id="greenId">
+        i am a another div
+        <p>i'm a para inside div</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum est placeat consequatur. Soluta labore ipsam
+        tempora officiis commodi. Inventore suscipit ea eius delectus aperiam voluptates reprehenderit eum nulla
+        consectetur explicabo.
+    </p>
+    <br>
+
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook.com">Go to Facebook</a>
+
+
+</body>
+
+</html>
