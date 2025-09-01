@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <img src="profile-img.jpg" alt="My Profile Photo" class="profile-img">
+            <h2>Hello, I'm Amit Kumar</h2>
+            <p>
+                I am a passionate web developer with experience in HTML, CSS, JavaScript, and more. I love building
+                interactive and responsive web applications.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-container" id="skills-list">
+                <!-- Skills will be loaded with JavaScript -->
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container" id="projects-list">
+                <!-- Projects will be loaded with JavaScript -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+                <p id="form-message"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Amit Kumar</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
